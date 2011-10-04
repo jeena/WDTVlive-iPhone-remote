@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F7F5998143B8BF300D3A6F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7F5997143B8BF300D3A6F9 /* UIKit.framework */; };
+		1F7F599A143B8BF300D3A6F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7F5999143B8BF300D3A6F9 /* Foundation.framework */; };
+		1F7F599C143B8BF300D3A6F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7F599B143B8BF300D3A6F9 /* CoreGraphics.framework */; };
+		1F7F59A2143B8BF300D3A6F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F59A0143B8BF300D3A6F9 /* InfoPlist.strings */; };
+		1F7F59A4143B8BF300D3A6F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F59A3143B8BF300D3A6F9 /* main.m */; };
+		1F7F59A8143B8BF300D3A6F9 /* WDTVliveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F59A7143B8BF300D3A6F9 /* WDTVliveAppDelegate.m */; };
+		1F7F59AB143B8BF300D3A6F9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F59A9143B8BF300D3A6F9 /* MainWindow.xib */; };
+		1F7F59AE143B8BF300D3A6F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F59AD143B8BF300D3A6F9 /* MainViewController.m */; };
+		1F7F59B0143B8BF300D3A6F9 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F59AF143B8BF300D3A6F9 /* MainView.xib */; };
+		1F7F59B3143B8BF300D3A6F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F59B2143B8BF300D3A6F9 /* FlipsideViewController.m */; };
+		1F7F59B5143B8BF300D3A6F9 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F59B4143B8BF300D3A6F9 /* FlipsideView.xib */; };
+		1F7F59BE143BAF3500D3A6F9 /* remote-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F59BD143BAF3500D3A6F9 /* remote-bg.png */; };
+		1F7F59C1143BC99800D3A6F9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F59BF143BC99700D3A6F9 /* Icon.png */; };
+		1F7F59C2143BC99800D3A6F9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F59C0143BC99700D3A6F9 /* Icon@2x.png */; };
+		1F7F59C4143BCA5C00D3A6F9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F59C3143BCA5C00D3A6F9 /* Default@2x.png */; };
+		1F7F59C6143BCA8000D3A6F9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F59C5143BCA8000D3A6F9 /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F7F5993143B8BF300D3A6F9 /* WDTVlive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDTVlive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7F5997143B8BF300D3A6F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F7F5999143B8BF300D3A6F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F7F599B143B8BF300D3A6F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F7F599F143B8BF300D3A6F9 /* WDTVlive-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WDTVlive-Info.plist"; sourceTree = "<group>"; };
+		1F7F59A1143B8BF300D3A6F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F7F59A3143B8BF300D3A6F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F7F59A5143B8BF300D3A6F9 /* WDTVlive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WDTVlive-Prefix.pch"; sourceTree = "<group>"; };
+		1F7F59A6143B8BF300D3A6F9 /* WDTVliveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTVliveAppDelegate.h; sourceTree = "<group>"; };
+		1F7F59A7143B8BF300D3A6F9 /* WDTVliveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTVliveAppDelegate.m; sourceTree = "<group>"; };
+		1F7F59AA143B8BF300D3A6F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1F7F59AC143B8BF300D3A6F9 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1F7F59AD143B8BF300D3A6F9 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1F7F59AF143B8BF300D3A6F9 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		1F7F59B1143B8BF300D3A6F9 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		1F7F59B2143B8BF300D3A6F9 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		1F7F59B4143B8BF300D3A6F9 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		1F7F59BD143BAF3500D3A6F9 /* remote-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "remote-bg.png"; sourceTree = "<group>"; };
+		1F7F59BF143BC99700D3A6F9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1F7F59C0143BC99700D3A6F9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		1F7F59C3143BCA5C00D3A6F9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1F7F59C5143BCA8000D3A6F9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F7F5990143B8BF300D3A6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7F5998143B8BF300D3A6F9 /* UIKit.framework in Frameworks */,
+				1F7F599A143B8BF300D3A6F9 /* Foundation.framework in Frameworks */,
+				1F7F599C143B8BF300D3A6F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7F5988143B8BF300D3A6F9 = {
+			isa = PBXGroup;
+			children = (
+				1F7F599D143B8BF300D3A6F9 /* WDTVlive */,
+				1F7F5996143B8BF300D3A6F9 /* Frameworks */,
+				1F7F5994143B8BF300D3A6F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F7F5994143B8BF300D3A6F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F5993143B8BF300D3A6F9 /* WDTVlive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F7F5996143B8BF300D3A6F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F5997143B8BF300D3A6F9 /* UIKit.framework */,
+				1F7F5999143B8BF300D3A6F9 /* Foundation.framework */,
+				1F7F599B143B8BF300D3A6F9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F7F599D143B8BF300D3A6F9 /* WDTVlive */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F59A6143B8BF300D3A6F9 /* WDTVliveAppDelegate.h */,
+				1F7F59A7143B8BF300D3A6F9 /* WDTVliveAppDelegate.m */,
+				1F7F59A9143B8BF300D3A6F9 /* MainWindow.xib */,
+				1F7F59AC143B8BF300D3A6F9 /* MainViewController.h */,
+				1F7F59AD143B8BF300D3A6F9 /* MainViewController.m */,
+				1F7F59AF143B8BF300D3A6F9 /* MainView.xib */,
+				1F7F59B1143B8BF300D3A6F9 /* FlipsideViewController.h */,
+				1F7F59B2143B8BF300D3A6F9 /* FlipsideViewController.m */,
+				1F7F59B4143B8BF300D3A6F9 /* FlipsideView.xib */,
+				1F7F59BD143BAF3500D3A6F9 /* remote-bg.png */,
+				1F7F59C5143BCA8000D3A6F9 /* Default.png */,
+				1F7F59BF143BC99700D3A6F9 /* Icon.png */,
+				1F7F59C0143BC99700D3A6F9 /* Icon@2x.png */,
+				1F7F59C3143BCA5C00D3A6F9 /* Default@2x.png */,
+				1F7F599E143B8BF300D3A6F9 /* Supporting Files */,
+			);
+			path = WDTVlive;
+			sourceTree = "<group>";
+		};
+		1F7F599E143B8BF300D3A6F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F599F143B8BF300D3A6F9 /* WDTVlive-Info.plist */,
+				1F7F59A0143B8BF300D3A6F9 /* InfoPlist.strings */,
+				1F7F59A3143B8BF300D3A6F9 /* main.m */,
+				1F7F59A5143B8BF300D3A6F9 /* WDTVlive-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F7F5992143B8BF300D3A6F9 /* WDTVlive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7F59B8143B8BF300D3A6F9 /* Build configuration list for PBXNativeTarget "WDTVlive" */;
+			buildPhases = (
+				1F7F598F143B8BF300D3A6F9 /* Sources */,
+				1F7F5990143B8BF300D3A6F9 /* Frameworks */,
+				1F7F5991143B8BF300D3A6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDTVlive;
+			productName = WDTVlive;
+			productReference = 1F7F5993143B8BF300D3A6F9 /* WDTVlive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F7F598A143B8BF300D3A6F9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1F7F598D143B8BF300D3A6F9 /* Build configuration list for PBXProject "WDTVlive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F7F5988143B8BF300D3A6F9;
+			productRefGroup = 1F7F5994143B8BF300D3A6F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F7F5992143B8BF300D3A6F9 /* WDTVlive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F7F5991143B8BF300D3A6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7F59A2143B8BF300D3A6F9 /* InfoPlist.strings in Resources */,
+				1F7F59AB143B8BF300D3A6F9 /* MainWindow.xib in Resources */,
+				1F7F59B0143B8BF300D3A6F9 /* MainView.xib in Resources */,
+				1F7F59B5143B8BF300D3A6F9 /* FlipsideView.xib in Resources */,
+				1F7F59BE143BAF3500D3A6F9 /* remote-bg.png in Resources */,
+				1F7F59C1143BC99800D3A6F9 /* Icon.png in Resources */,
+				1F7F59C2143BC99800D3A6F9 /* Icon@2x.png in Resources */,
+				1F7F59C4143BCA5C00D3A6F9 /* Default@2x.png in Resources */,
+				1F7F59C6143BCA8000D3A6F9 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F7F598F143B8BF300D3A6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7F59A4143B8BF300D3A6F9 /* main.m in Sources */,
+				1F7F59A8143B8BF300D3A6F9 /* WDTVliveAppDelegate.m in Sources */,
+				1F7F59AE143B8BF300D3A6F9 /* MainViewController.m in Sources */,
+				1F7F59B3143B8BF300D3A6F9 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F7F59A0143B8BF300D3A6F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7F59A1143B8BF300D3A6F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F7F59A9143B8BF300D3A6F9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7F59AA143B8BF300D3A6F9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F7F59B6143B8BF300D3A6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Richard Pannek (G62Q88N36M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "97B9FA69-F4E7-42D4-A36A-0B3FD34B54D3";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F7F59B7143B8BF300D3A6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F7F59B9143B8BF300D3A6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WDTVlive/WDTVlive-Prefix.pch";
+				INFOPLIST_FILE = "WDTVlive/WDTVlive-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F7F59BA143B8BF300D3A6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WDTVlive/WDTVlive-Prefix.pch";
+				INFOPLIST_FILE = "WDTVlive/WDTVlive-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F7F598D143B8BF300D3A6F9 /* Build configuration list for PBXProject "WDTVlive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7F59B6143B8BF300D3A6F9 /* Debug */,
+				1F7F59B7143B8BF300D3A6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7F59B8143B8BF300D3A6F9 /* Build configuration list for PBXNativeTarget "WDTVlive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7F59B9143B8BF300D3A6F9 /* Debug */,
+				1F7F59BA143B8BF300D3A6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F7F598A143B8BF300D3A6F9 /* Project object */;
+}

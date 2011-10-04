@@ -1,0 +1,12 @@
+WDTV live iPhone remote
+
+I don't like the WDTV live remote very much and I always have
+my iPhone in my pocket, so I coded this to enable swipe navigation
+on the WDTV live through the iPhone.
+
+You need to hack your WDTV live in order to be able to use it,
+more information about this: http://wdlxtv.com
+
+The license is the BSD licence.
+
+@author Jeena Paradies <spam@jeenaparadies.net>
